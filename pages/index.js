@@ -3,6 +3,7 @@ import Accordion from "../components/elements/Accordion";
 import PortfolioFilter from "../components/elements/PortfolioFilter";
 import Layout from "../components/layout/Layout";
 import Hero from "../components/src/hero";
+import Services from "../components/src/services";
 import Brand from "../components/slider/Brand";
 import Testimonial from "../components/slider/Testimonial";
 import Typewriter from "typewriter-effect";
@@ -18,6 +19,7 @@ export default function Home() {
               <div className="col-xl-1" />
               <div className="col-xl-10 col-lg-12">
                 <Hero />
+                <Services />
               </div>
             </div>
           </div>
