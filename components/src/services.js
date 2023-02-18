@@ -3,6 +3,7 @@ import React from "react";
 const services = () => {
   return (
     <div className="box-features bg-gray-850 border-gray-800">
+      <h1 className="text-center mb-15 color-linear">Services</h1>
       <div className="row">
         <div
           className="col-lg-4 col-md-6 mb-50 wow animate__animated animate__fadeIn"
